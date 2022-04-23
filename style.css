@@ -70,7 +70,37 @@ main {
     background-position: 80% 0;
 }
 
+.card-2{
+    grid-column: 3/4;
+}
 
+.card-3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-color: #fff;
+}
+
+.card-4{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.card-5{
+    grid-row: -1/1;
+    grid-column: 4/5;
+    background-color: #fff;
+}
+
+.card-3 .card__heading,
+.card-3 .card__head,
+.card-3 .card__detail,
+.card-5 .card__heading,
+.card-5 .card__head,
+.card-5 .card__detail{
+    color: #222;
+}
+
+@media (max-whith:1024px)
 
 
 
