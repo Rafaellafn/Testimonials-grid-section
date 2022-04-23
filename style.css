@@ -38,6 +38,19 @@ main {
     height: 32px;
     border-radius: 50%;
     margin-right: 10px;
-    border: 2px solid #ffffff;
+    border: 2px solid #fff;
 }
+
+.name{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.title{
+    opacity: 0.5;
+}
+
+
+
+
 
